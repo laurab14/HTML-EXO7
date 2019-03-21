@@ -1,0 +1,23 @@
+body{
+  width: 100%;
+  height: 673px;
+}
+
+.Bleu{
+width: 100%;
+height:auto;
+background-color:#2574a9;
+float :left;
+}
+.Violet{
+  width: 100%;
+  height:auto;
+  background-color: #9a12b3;
+  float :left;
+}
+.Rose{
+  width: 100%;
+  height:auto;
+  background-color:#db0a5b;
+  float: left;
+}
