@@ -8,40 +8,37 @@
 </head>
 
 <body>
+  <form method="post" action="traitement.php">
 
-  <fieldset>
-    <legend>Votre identité</legend>
-    <form method="post" action="traitement.php">
-    <ol>
-      <li><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Nom" /></li>
-      <li><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Nom" placeholder="Prénom" /></li>
-      <li><label for="Adresse mail">Adresse mail : </label><input type="text" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail" /></li>
-    </ol>
-    </form>
+    <fieldset class="Bleu">
+      <legend id="Bleu">Votre identité</legend>
+      <ol>
+        <li><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Nom" /></li>
+        <li><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Nom" placeholder="Prénom" /></li>
+        <li><label for="Adresse mail">Adresse mail : </label><input type="text" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail" /></li>
+      </ol>
     </fieldset>
 
-    <p>Adresse de livraison</p>
-    <form method="post" action="traitement.php">
-    <ol>
-      <li><label for="Adresse">Adresse : </label><textarea name="Adresse" id="Adresse" rows="5" cols="20"></textarea></li>
-      <li><label for="Code postal">Code postal : </label><input type="text" name="Code postal" id="Code postal" placeholder="Code postal" /></li>
-      <li><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" placeholder="Ville" /></li>
-    </ol>
-  </form>
+    <fieldset class="Violet">
+      <legend id="Violet">Adresse de livraison</legend>
+      <ol>
+        <li><label for="Adresse">Adresse : </label><textarea name="Adresse" id="Adresse" rows="5" cols="20"></textarea></li>
+        <li><label for="Code postal">Code postal : </label><input type="text" name="Code postal" id="Code postal" placeholder="Code postal" /></li>
+        <li><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" placeholder="Ville" /></li>
+      </ol>
+    </fieldset>
 
-
-    <p>Informations de réglement</p>
-    <form method="post" action="traitement.php">
-    <ol>
-      <li>Type de carte bancaire :</li>
-      <p><input type="radio" name="CB" value="VISA" id="VISA" /><label for="VISA">VISA</label></p>
-      <p><input type="radio" name="CB" value="MASTERCARD" /><label for="MASTERCARD">MASTERCARD</label></p>
-      <li><label for="Numéro de carte">Numéro de carte : </label><input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte" /></li>
-      <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" name="Code de sécurité" id="Code se sécurité" placeholder="Code de sécurité" /></li>
-      <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire" /></li>
-    </ol>
-  </form>
+    <fieldset class="Rose">
+      <legend id="Rose">Information de réglement</legend>
+      <ol>
+        <li>Type de carte bancaire :</li>
+        <p><input type="radio" name="CB" value="VISA" id="VISA" /><label for="VISA">VISA</label></p>
+        <p><input type="radio" name="CB" value="MASTERCARD" /><label for="MASTERCARD">MASTERCARD</label></p>
+        <li><label for="Numéro de carte">Numéro de carte : </label><input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte" /></li>
+        <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" name="Code de sécurité" id="Code se sécurité" placeholder="Code de sécurité" /></li>
+        <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire" /></li>
+      </ol>
+    </fieldset>
 
 </body>
-
 </html>

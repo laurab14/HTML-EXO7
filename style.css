@@ -1,23 +1,10 @@
-body{
-  width: 100%;
-  height: 673px;
+.Bleu, #Bleu{
+background-color:#2574a9;
 }
 
-.Bleu{
-width: 100%;
-height:auto;
-background-color:#2574a9;
-float :left;
-}
-.Violet{
-  width: 100%;
-  height:auto;
+.Violet, #Violet{
   background-color: #9a12b3;
-  float :left;
 }
-.Rose{
-  width: 100%;
-  height:auto;
+.Rose, #Rose{
   background-color:#db0a5b;
-  float: left;
 }
